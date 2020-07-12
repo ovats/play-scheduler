@@ -35,16 +35,3 @@ class TaskWithFixedDelayRunnable @Inject()(actorSystem: ActorSystem)
   }
 }
 
-
-2020-07-11 21:44:30 INFO  akka.actor.ActorSystemImpl akka.actor.ActorSystemImpl(application) [SetTaskToRunWithFixedDelay]
-2020-07-11 21:44:30 INFO  akka.actor.ActorSystemImpl akka.actor.ActorSystemImpl(application) [SetTaskToRunWithFixedDelay] Sat Jul 11 21:44:30 UYT 2020
-
-2020-07-11 21:44:32 INFO  akka.actor.ActorSystemImpl akka.actor.ActorSystemImpl(application) [TaskWithFixedDelayRunnable] Executing something...
-2020-07-11 21:44:32 INFO  akka.actor.ActorSystemImpl akka.actor.ActorSystemImpl(application) [TaskWithFixedDelayRunnable] Start: Sat Jul 11 21:44:32 UYT 2020
-2020-07-11 21:44:33 INFO  akka.actor.ActorSystemImpl akka.actor.ActorSystemImpl(application) [TaskWithFixedDelayRunnable] End: Sat Jul 11 21:44:33 UYT 2020
-2020-07-11 21:44:36 INFO  akka.actor.ActorSystemImpl akka.actor.ActorSystemImpl(application) [TaskWithFixedDelayRunnable] Executing something...
-2020-07-11 21:44:36 INFO  akka.actor.ActorSystemImpl akka.actor.ActorSystemImpl(application) [TaskWithFixedDelayRunnable] Start: Sat Jul 11 21:44:36 UYT 2020
-2020-07-11 21:44:37 INFO  akka.actor.ActorSystemImpl akka.actor.ActorSystemImpl(application) [TaskWithFixedDelayRunnable] End: Sat Jul 11 21:44:37 UYT 2020
-2020-07-11 21:44:40 INFO  akka.actor.ActorSystemImpl akka.actor.ActorSystemImpl(application) [TaskWithFixedDelayRunnable] Executing something...
-2020-07-11 21:44:40 INFO  akka.actor.ActorSystemImpl akka.actor.ActorSystemImpl(application) [TaskWithFixedDelayRunnable] Start: Sat Jul 11 21:44:40 UYT 2020
-2020-07-11 21:44:41 INFO  akka.actor.ActorSystemImpl akka.actor.ActorSystemImpl(application) [TaskWithFixedDelayRunnable] End: Sat Jul 11 21:44:41 UYT 2020
