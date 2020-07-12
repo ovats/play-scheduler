@@ -1,6 +1,6 @@
 package tasks
 
-import akka.actor.{ActorLogging, ActorSystem}
+import akka.actor.ActorSystem
 import javax.inject.Inject
 import play.api.inject.{SimpleModule, bind}
 
