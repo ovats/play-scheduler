@@ -1,7 +1,7 @@
 name := """play-scheduler"""
 //organization := "com.example"
 
-version := "1.0.0"
+version := "1.0.1"
 
 lazy val root = (project in file(".")).enablePlugins(PlayScala)
 
