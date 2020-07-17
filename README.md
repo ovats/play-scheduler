@@ -165,6 +165,11 @@ After running the application the output is:
 
 ### scheduleOnce
 
-TODO
+Finally, we added a new feature in the app that will trigger a task but it will only run once.
+The steps are the same:
 
-
+- Add an entry in `application.conf` pointing to `tasks.BackgroundTaskOnce`.
+- Create the class `BackgroundTaskOnce`.
+- Create a new class `SetTaskToRunOnce` which will be invoked by `BackgroundTaskOnce`.
+- This class will set the scheduler invoking method `scheduleOnce`.
+- The scheduler will execute the task of a new class in `TaskToRunOnce`.
