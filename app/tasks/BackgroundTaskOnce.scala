@@ -8,9 +8,7 @@ import scala.concurrent.duration._
 import scala.concurrent.ExecutionContext
 import scala.language.postfixOps
 
-class BackgroundTaskOnce extends SimpleModule(bind[SetTaskToRunOnce].toSelf.eagerly()) {
-
-}
+class BackgroundTaskOnce extends SimpleModule(bind[SetTaskToRunOnce].toSelf.eagerly()) 
 
 class SetTaskToRunOnce  @Inject()(actorSystem: ActorSystem)  (
   implicit executionContext: ExecutionContext
